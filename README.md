@@ -8,5 +8,5 @@ My personal configuration for nvim using vimscript.
 git clone https://github.com/Lmanangka/nvim-config-vimscript
 ```
 ```shell
-cp $HOME/nvim-config-vimscript/nvim .config
+cp -rf $HOME/nvim-config-vimscript/nvim .config
 ```
