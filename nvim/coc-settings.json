@@ -1,0 +1,20 @@
+[
+{
+    "languageserver": {
+        "clangd": {
+        "command": "$HOME/.local/bin/clangd_14.0.3/bin/clangd",
+        "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+        "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        }
+    }
+},{
+    "languageserver":{
+        "arduino":{
+        "command":"$HOME/.local/bin/arduino-language-server",
+        "rootPatterns":["*.ino"],
+        "filetypes":["arduino"],
+        "args":["-cli", "$HOME/bin/arduino-cli", "-clangd", "$HOME/.local/bin/clangd_14.0.3/bin/clangd", "-cli-config", "$HOME/.arduino15/arduino-cli.yaml"]
+        }
+    }
+}
+]
